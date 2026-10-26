@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Mukunda Padma Priya .M, a B.Tech 2nd-year student in Computer Science & Design (CSD) at SRKR Engineering College seeking software development internship opportunities.">
+  <meta name="keywords" content="Portfolio, Software Developer, B.Tech Student, Internship, Computer Science and Design, CSD, SRKR Engineering College, Java, Python, JavaScript, Web Development">
+  <meta name="author" content="Mukunda Padma Priya .M">
+  
+  <title>Mukunda Padma Priya .M | Aspiring Software Developer | Student Portfolio</title>
+  
+  <!-- Google Fonts: Inter for clean, professional recruiter typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Accessible Skip Link -->
+  <a href="#home" class="skip-link">Skip to main content</a>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION BAR
+       ========================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container navbar">
+      <!-- Brand Logo / Name -->
+      <a href="#home" class="nav-brand" aria-label="Go to top">
+        <div class="brand-avatar" aria-hidden="true">MP</div>
+        <div class="brand-info">
+          <span class="brand-name">Mukunda Padma Priya .M</span>
+          <span class="brand-role">B.Tech 2nd Year • CSD</span>
+        </div>
+      </a>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+      <!-- Navigation Menu -->
+      <nav class="nav-menu" id="primary-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About Me</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <!-- Quick Resume Download Button in Header -->
+          <a href="resume.pdf" download="resume.pdf" class="btn-header-resume action-download-resume" title="Download Resume">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>Resume</span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         SECTION 1: HOME / HERO SECTION
+         ========================================================================== -->
+    <section class="section hero-section" id="home">
+      <div class="container">
+        <div class="hero-content">
+          
+          <!-- Status Badge -->
+          <div class="hero-badge-container">
+            <span class="status-badge">
+              <span class="status-dot" aria-hidden="true"></span>
+              Open to Software Development Internships
+            </span>
+            <span class="student-tag">B.Tech 2nd Year Student</span>
+          </div>
+
+          <!-- Student Name -->
+          <h1 class="hero-name">Mukunda Padma Priya .M</h1>
+
+          <!-- Department & College Information -->
+          <div class="hero-college-meta">
+            <span>Department: <strong>CSD (Computer Science & Design)</strong></span>
+            <span class="meta-divider">•</span>
+            <span>College: <strong>SRKR Engineering College</strong></span>
+          </div>
+
+          <!-- Professional Headline -->
+          <h2 class="hero-headline">
+            Aspiring Software Developer | B.Tech Student | Internship Seeker
+          </h2>
+
+          <!-- Short Introduction -->
+          <p class="hero-intro">
+            I am a passionate B.Tech 2nd-year student interested in software development and technology. I enjoy learning new programming skills, building projects, and solving real-world problems. I am looking for internship opportunities to gain practical experience and improve my technical skills.
+          </p>
+
+          <!-- Primary Call-to-Action Buttons -->
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Projects</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <polyline points="19 12 12 19 5 12"></polyline>
+              </svg>
+            </a>
+
+            <!-- Resume Download Button -->
+            <a href="resume.pdf" download="resume.pdf" class="btn btn-secondary action-download-resume">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download Resume</span>
+            </a>
+          </div>
+
+          <!-- Quick Highlight Metrics Strip -->
+          <div class="hero-highlights-strip">
+            <div class="highlight-item">
+              <div class="highlight-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <div class="highlight-text">
+                <span class="highlight-label">Academic Status</span>
+                <span class="highlight-value">2nd Year Undergrad</span>
+              </div>
+            </div>
+
+            <div class="highlight-item">
+              <div class="highlight-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div class="highlight-text">
+                <span class="highlight-label">Focus Area</span>
+                <span class="highlight-value">Problem Solving & Web Dev</span>
+              </div>
+            </div>
+
+            <div class="highlight-item">
+              <div class="highlight-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+              </div>
+              <div class="highlight-text">
+                <span class="highlight-label">Target Role</span>
+                <span class="highlight-value">Software Developer Intern</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 2: ABOUT ME
+         ========================================================================== -->
+    <section class="section" id="about">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Background & Aspirations</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">
+            An overview of my academic foundation, programming interests, and career goals.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left Column: Narrative description -->
+          <div class="about-narrative">
+            <p class="about-paragraph">
+              I am currently pursuing my <strong>Bachelor of Technology (B.Tech) degree in Computer Science and Design (CSD)</strong> at <strong>SRKR Engineering College</strong>. Having completed my first year with a strong foundation in science and engineering fundamentals, I am now focused on mastering core computer science and software design subjects including Data Structures, Algorithms, and Object-Oriented Programming.
+            </p>
+
+            <p class="about-paragraph">
+              My interest in software development started with simple logic building and writing scripts to solve small problems. Over time, that curiosity evolved into a dedicated passion for building useful web applications, understanding how systems work under the hood, and writing clean, maintainable code.
+            </p>
+
+            <p class="about-paragraph">
+              Technology evolves rapidly, and I pride myself on being an eager, disciplined learner. Whenever I encounter a new framework, tool, or library, I take time to understand the fundamentals before building hands-on projects to consolidate my understanding.
+            </p>
+
+            <p class="about-paragraph">
+              <strong>My Career Goal:</strong> I aim to develop into a versatile, skilled software developer capable of creating robust, scalable applications that solve meaningful real-world challenges. An internship will provide me with the industry exposure, mentorship, and practical teamwork necessary to accelerate this journey.
+            </p>
+          </div>
+
+          <!-- Right Column: Structured Key Highlights -->
+          <div class="about-cards-column">
+            
+            <div class="profile-card">
+              <div class="profile-card-header">
+                <div class="card-icon-box" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <h3 class="profile-card-title">Academic Background</h3>
+              </div>
+              <p class="profile-card-desc">
+                Currently in 2nd year of B.Tech. Consistently maintaining solid academics with an emphasis on core problem solving and practical programming labs.
+              </p>
+            </div>
+
+            <div class="profile-card">
+              <div class="profile-card-header">
+                <div class="card-icon-box" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="4 17 10 11 4 5"></polyline>
+                    <line x1="12" y1="19" x2="20" y2="19"></line>
+                  </svg>
+                </div>
+                <h3 class="profile-card-title">Why I Love Programming</h3>
+              </div>
+              <p class="profile-card-desc">
+                I enjoy transforming conceptual ideas into functioning software that simplifies daily tasks. Debugging and optimizing code fuels my curiosity.
+              </p>
+            </div>
+
+            <div class="profile-card">
+              <div class="profile-card-header">
+                <div class="card-icon-box" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                  </svg>
+                </div>
+                <h3 class="profile-card-title">What I Bring to a Team</h3>
+              </div>
+              <ul class="about-values-list">
+                <li class="value-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>High willingness and agility to learn new tech stacks</span>
+                </li>
+                <li class="value-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Strong work ethic, humility, and attention to detail</span>
+                </li>
+                <li class="value-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Clear communication and enthusiasm for collaboration</span>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 3: TECHNICAL SKILLS
+         ========================================================================== -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Competencies</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">
+            Categorized overview of the programming languages, web technologies, and developer tools I actively use and understand.
+          </p>
+        </div>
+
+        <div class="skills-container">
+          <div class="skills-grid">
+            
+            <!-- Category 1: Programming Languages -->
+            <div class="skill-category-card">
+              <div class="skill-card-top">
+                <div class="skill-icon-wrap" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </div>
+                <h3 class="skill-category-name">Programming Languages</h3>
+              </div>
+
+              <div class="skills-pill-list">
+                <div class="skill-pill">
+                  <span class="skill-dot" aria-hidden="true"></span>
+                  <span>Java</span>
+                </div>
+                <div class="skill-pill">
+                  <span class="skill-dot" aria-hidden="true"></span>
+                  <span>Python</span>
+                </div>
+                <div class="skill-pill">
+                  <span class="skill-dot" aria-hidden="true"></span>
+                  <span>C</span>
+                </div>
+                <div class="skill-pill">
+                  <span class="skill-dot" aria-hidden="true"></span>
+                  <span>JavaScript</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Category 2: Web Development -->
+            <div class="skill-category-card">
+              <div class="skill-card-top">
+                <div class="skill-icon-wrap" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                  </svg>
+                </div>
+                <h3 class="skill-category-name">Web Development</h3>
+              </div>
+
+              <div class="skills-pill-list">
+                <div class="skill-pill">
+                  <span class="skill-dot" aria-hidden="true"></span>
+                  <span>HTML</span>
+                </div>
+                <div class="skill-pill">
+                  <span class="skill-dot" aria-hidden="true"></span>
+                  <span>CSS</span>
+                </div>
+                <div class="skill-pill">
+                  <span class="skill-dot" aria-hidden="true"></span>
+                  <span>React</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Category 3: Developer Tools -->
+            <div class="skill-category-card">
+              <div class="skill-card-top">
+                <div class="skill-icon-wrap" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                  </svg>
+                </div>
+                <h3 class="skill-category-name">Tools & Platforms</h3>
+              </div>
+
+              <div class="skills-pill-list">
+                <div class="skill-pill">
+                  <span class="skill-dot" aria-hidden="true"></span>
+                  <span>Git</span>
+                </div>
+                <div class="skill-pill">
+                  <span class="skill-dot" aria-hidden="true"></span>
+                  <span>GitHub</span>
+                </div>
+                <div class="skill-pill">
+                  <span class="skill-dot" aria-hidden="true"></span>
+                  <span>VS Code</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Professional Note for Recruiters -->
+          <div class="skills-disclaimer">
+            <div class="disclaimer-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="16" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+              </svg>
+            </div>
+            <p class="disclaimer-text">
+              <strong>Honest Skill Representation:</strong> I list only the technologies I have actively coded with in coursework, labs, and projects. I am currently learning advanced Data Structures and full-stack backend development.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 4: PROJECTS
+         ========================================================================== -->
+    <section class="section" id="projects">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Hands-On Work</span>
+          <h2 class="section-title">Projects</h2>
+          <p class="section-subtitle">
+            A showcase of my college coursework and personal software projects. You can explore the code and documentation on GitHub.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1: Student Complaint Management System (Hackathon) -->
+          <article class="project-card">
+            <div class="project-top">
+              <div class="project-meta-row">
+                <span class="project-badge hackathon">Hackathon Project</span>
+                <span class="project-year-badge">College Level</span>
+              </div>
+              <h3 class="project-title">Student Complaint Management System</h3>
+              <p class="project-description">
+                A centralized grievance redressal platform developed for a hackathon. It allows students to lodge complaints along with supporting evidence and photos, categorizes grievances, and securely directs them to the college management and administration for rapid response and resolution.
+              </p>
+              <div class="project-tech-stack" aria-label="Technologies used">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">Database</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/Mukunda-2008/student-complaint-management-system" target="_blank" rel="noopener noreferrer" class="project-link-btn" title="View Source Code on GitHub">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>GitHub Repository</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: Community Gig Services (SIH) -->
+          <article class="project-card">
+            <div class="project-top">
+              <div class="project-meta-row">
+                <span class="project-badge sih">Smart India Hackathon (SIH)</span>
+                <span class="project-year-badge">Web Platform</span>
+              </div>
+              <h3 class="project-title">Community Gig Services</h3>
+              <p class="project-description">
+                Developed for Smart India Hackathon (SIH), this web application connects local gig service providers with neighborhood residents. Users can discover verified services, allot preferred timings, book hourly or task-based services, and manage scheduling smoothly.
+              </p>
+              <div class="project-tech-stack" aria-label="Technologies used">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">REST API</span>
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/Mukunda-2008/community-gig-services" target="_blank" rel="noopener noreferrer" class="project-link-btn" title="View Source Code on GitHub">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>GitHub Repository</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3: Personal Developer Portfolio -->
+          <article class="project-card">
+            <div class="project-top">
+              <div class="project-meta-row">
+                <span class="project-badge personal">Personal Project</span>
+                <span class="project-year-badge">Web Application</span>
+              </div>
+              <h3 class="project-title">Personal Developer Portfolio</h3>
+              <p class="project-description">
+                A clean, classic, and responsive personal portfolio website designed for software engineering internship applications. Showcases educational background, technical skills, hackathon achievements, and contact channels with a recruiter-first aesthetic.
+              </p>
+              <div class="project-tech-stack" aria-label="Technologies used">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Responsive Design</span>
+              </div>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/Mukunda-2008/portfolio" target="_blank" rel="noopener noreferrer" class="project-link-btn" title="View Source Code on GitHub">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>GitHub Repository</span>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="project-customize-hint">
+          💡 <em>Tip: You can easily add, edit, or replace these projects in <code>index.html</code> with your own GitHub links.</em>
+        </p>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 5: EDUCATION
+         ========================================================================== -->
+    <section class="section section-alt" id="education">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Academic Qualifications</span>
+          <h2 class="section-title">Education</h2>
+          <p class="section-subtitle">
+            My formal engineering education and foundational coursework.
+          </p>
+        </div>
+
+        <div class="education-card">
+          <div class="education-header">
+            <div class="education-degree-wrap">
+              <div class="education-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <div>
+                <!-- Degree & Year -->
+                <h3 class="education-degree">Bachelor of Technology (B.Tech) – 2nd Year</h3>
+                
+                <div class="education-department">Department: Computer Science and Design (CSD)</div>
+                
+                <div class="education-college">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  <span>SRKR Engineering College, Bhimavaram</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Graduation Year Badge -->
+            <div class="education-year-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span>Graduation Year: 2029</span>
+            </div>
+          </div>
+
+          <!-- Academic Highlights Grid -->
+          <div class="education-details-grid">
+            
+            <!-- Relevant Coursework -->
+            <div class="education-block">
+              <h4 class="detail-block-title">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+                <span>Key Relevant Coursework</span>
+              </h4>
+              <div class="coursework-chips">
+                <span class="coursework-chip">Data Structures & Algorithms</span>
+                <span class="coursework-chip">Object-Oriented Programming (Java)</span>
+                <span class="coursework-chip">Computer Organization</span>
+                <span class="coursework-chip">Database Management Basics</span>
+                <span class="coursework-chip">Discrete Mathematics</span>
+                <span class="coursework-chip">Operating Systems Basics</span>
+              </div>
+            </div>
+
+            <!-- Academic Focus & Activities -->
+            <div class="education-block">
+              <h4 class="detail-block-title">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+                <span>Academic Focus & Activities</span>
+              </h4>
+              <ul class="education-bullet-list">
+                <li class="education-bullet">
+                  <span class="bullet-dot">•</span>
+                  <span>Active member of college Technical Club & Coding Community.</span>
+                </li>
+                <li class="education-bullet">
+                  <span class="bullet-dot">•</span>
+                  <span>Regularly practice algorithm problems on LeetCode / HackerRank.</span>
+                </li>
+                <li class="education-bullet">
+                  <span class="bullet-dot">•</span>
+                  <span>Participating in college hackathons and coding competitions.</span>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECTION 6: CONTACT
+         ========================================================================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Contact</h2>
+          <p class="section-subtitle">
+            I welcome inquiries from recruiters, hiring managers, and fellow engineers regarding internship roles or projects.
+          </p>
+        </div>
+
+        <div class="contact-box">
+          <!-- Required Professional Message Banner -->
+          <div class="contact-message-banner">
+            <div class="banner-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </div>
+            <p class="banner-quote">
+              "I am open to internship opportunities and eager to learn, contribute, and gain practical experience."
+            </p>
+          </div>
+
+          <!-- Contact Channels Grid -->
+          <div class="contact-channels-grid">
+            
+            <!-- Email Card -->
+            <a href="mailto:mandelamukunda@gmail.com" class="contact-channel-card">
+              <div class="channel-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <span class="channel-title">Email</span>
+              <span class="channel-value">mandelamukunda@gmail.com</span>
+              <span class="channel-action">
+                <span>Send an email</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </span>
+            </a>
+
+            <!-- GitHub Card -->
+            <a href="https://github.com/Mukunda-2008" target="_blank" rel="noopener noreferrer" class="contact-channel-card">
+              <div class="channel-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </div>
+              <span class="channel-title">GitHub</span>
+              <span class="channel-value">github.com/Mukunda-2008</span>
+              <span class="channel-action">
+                <span>View repositories</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </span>
+            </a>
+
+            <!-- LinkedIn Card -->
+            <a href="https://www.linkedin.com/in/mukunda-mandela-b47b1942a?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="contact-channel-card">
+              <div class="channel-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </div>
+              <span class="channel-title">LinkedIn</span>
+              <span class="channel-value">linkedin.com/in/mukunda-mandela</span>
+              <span class="channel-action">
+                <span>Connect on LinkedIn</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </span>
+            </a>
+
+          </div>
+
+          <!-- Quick Action Bar -->
+          <div class="contact-actions-row">
+            <div class="contact-direct-info">
+              <span class="direct-label">Direct Email:</span>
+              <span class="direct-email" id="direct-email-address">mandelamukunda@gmail.com</span>
+            </div>
+            <div class="contact-button-group">
+              <button class="btn-copy-email" id="btn-copy-email" type="button" aria-label="Copy email address to clipboard">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                <span>Copy Email</span>
+              </button>
+              <a href="mailto:mandelamukunda@gmail.com" class="btn btn-primary" style="padding: 9px 18px; font-size: 0.875rem;">
+                <span>Compose Message</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       SECTION 7: FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-name">Mukunda Padma Priya .M</span>
+          <span class="footer-sub">B.Tech 2nd Year (CSD) • SRKR Engineering College</span>
+        </div>
+
+        <!-- Footer Social Links -->
+        <div class="footer-social-links">
+          <a href="https://github.com/Mukunda-2008" target="_blank" rel="noopener noreferrer" class="footer-social-link" title="Visit GitHub Profile">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+            <span>GitHub</span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/mukunda-mandela-b47b1942a?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="footer-social-link" title="Visit LinkedIn Profile">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; <span id="current-year">2026</span> <strong>Mukunda Padma Priya .M</strong>. All rights reserved. Built for Software Engineering Internship Applications.
+        </p>
+
+        <a href="#home" class="btn-back-to-top" id="btn-back-to-top" aria-label="Back to top of page">
+          <span>Back to Top</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       TOAST NOTIFICATION (Email Copied)
+       ========================================================================== -->
+  <div class="toast-notification" id="toast-notification" role="status" aria-live="polite">
+    <div class="toast-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+      </svg>
+    </div>
+    <span id="toast-message">Email address copied to clipboard!</span>
+  </div>
+
+  <!-- ==========================================================================
+       RESUME SETUP GUIDANCE MODAL
+       Shown if resume.pdf is not found or when preview is clicked
+       ========================================================================== -->
+  <div class="modal-overlay" id="resume-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modal-title">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+        </div>
+        <h3 class="modal-title" id="modal-title">Resume Setup Notice</h3>
+      </div>
+      <div class="modal-body">
+        <p>To enable resume downloading for recruiters:</p>
+        <ol style="margin-left: 20px; margin-top: 10px; margin-bottom: 12px; list-style: decimal;">
+          <li>Export your resume as a PDF file named <code>resume.pdf</code>.</li>
+          <li>Place it in the root folder alongside <code>index.html</code>.</li>
+        </ol>
+        <p>Once placed, clicking the <strong>Download Resume</strong> button will immediately download your real resume!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary modal-close" style="padding: 8px 18px; font-size: 0.875rem;">Got it!</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
